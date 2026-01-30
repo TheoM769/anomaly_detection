@@ -1,0 +1,38 @@
+# Datasets
+datasets/*
+!datasets/*.md
+
+# Model checkpoints
+src/benchmark/classification/full_shot/checkpoints/*
+src/benchmark/detection/full_shot/checkpoints/*
+src/benchmark/memory_bank/*.pt
+src/benchmark/detection/zero_shot/*.pt
+src/demo/infrastructure/checkpoints/*
+*.pt
+
+# Run logs
+src/benchmark/detection/full_shot/runs/*
+src/benchmark/detection/full_shot/Object_detection/*
+src/benchmark/detection/full_shot/wandb/*
+src/benchmark/classification/full_shot/wandb/*
+
+# Other files
+results/*
+src/benchmark/classification/full_shot/results.csv
+*.pyc
+.vscode/*
+uv.lock
+.DS_Store
+.python-version
+models/src/cls_training/results.csv
+
+# Environment variables
+.env
+pixi.lock
+.DS_Store
+.python-version
+
+# pixi environments
+.pixi
+*.egg-info
+

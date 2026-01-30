@@ -1,0 +1,5 @@
+cpu_count: 10
+cpu_model: Apple M4
+os: macOS-15.5-arm64-arm-64bit
+python_version: 3.11.12
+ram_total_size_gb: 24.0

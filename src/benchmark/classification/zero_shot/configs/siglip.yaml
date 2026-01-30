@@ -1,0 +1,7 @@
+backbone:
+  backbone_name: SigCLIPBackbone
+  params:
+    model_name: so400m
+    half_precision: False
+model:
+  model_name: ZeroShotClassifier

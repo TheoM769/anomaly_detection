@@ -1,0 +1,9 @@
+backbone:
+  backbone_name: EfficientNetV2Backbone
+  params:
+    model_name: efficientnet_v2_s
+    resolution: 384
+model:
+  model_name: Classifier
+  params:
+    head: linear

@@ -1,0 +1,10 @@
+objects:
+  screw:
+    rotation: True
+    masking_type: "fast_sam_dilated"
+  bottle:
+    rotation: False
+    masking_type: "zero_shot"
+  cable:
+    rotation: False
+    masking_type: None

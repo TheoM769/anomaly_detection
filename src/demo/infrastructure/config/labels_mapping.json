@@ -1,0 +1,40 @@
+{
+    "mvtech_ad":
+    {
+        "id2labels": {
+            "0": "bottle",
+            "1": "cable",
+            "2": "capsule",
+            "3": "carpet",
+            "4": "grid",
+            "5": "hazelnut",
+            "6": "leather",
+            "7": "metal_nut",
+            "8": "pill",
+            "9": "screw",
+            "10": "tile",
+            "11": "toothbrush",
+            "12": "transistor",
+            "13": "wood",
+            "14": "zipper"
+        },
+
+        "labels2id": {
+            "bottle": 0,
+            "cable": 1,
+            "capsule": 2,
+            "carpet": 3,
+            "grid": 4,
+            "hazelnut": 5,
+            "leather": 6,
+            "metal_nut": 7,
+            "pill": 8,
+            "screw": 9,
+            "tile": 10,
+            "toothbrush": 11,
+            "transistor": 12,
+            "wood": 13,
+            "zipper": 14
+        }
+    }
+}

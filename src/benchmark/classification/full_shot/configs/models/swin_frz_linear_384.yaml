@@ -1,0 +1,9 @@
+backbone:
+  backbone_name: SwinBackbone
+  params:
+    model_name: swin_v2_b
+    resolution: 384
+model:
+  model_name: Classifier
+  params:
+    head: linear

@@ -1,0 +1,9 @@
+backbone:
+  backbone_name: DINOv2Backbone
+  params:
+    model_name: dinov2_vits14
+    resolution: 384
+model:
+  model_name: Classifier
+  params:
+    head: linear

@@ -1,0 +1,9 @@
+backbone:
+  backbone_name: HierarchicalResNet
+  params:
+    model_name: resnet50
+    resolution: 384
+model:
+  model_name: Classifier
+  params:
+    head: linear

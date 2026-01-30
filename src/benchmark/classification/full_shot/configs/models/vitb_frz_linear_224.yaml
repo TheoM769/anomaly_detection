@@ -1,0 +1,9 @@
+backbone:
+  backbone_name: ViTBackbone
+  params:
+    model_name: vit_b_16
+    resolution: 224
+model:
+  model_name: Classifier
+  params:
+    head: linear

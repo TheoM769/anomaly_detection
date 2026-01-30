@@ -1,0 +1,29 @@
+processors:
+  vit_cls:
+    model: adapters.models.linear_cls_adapter.LinearClsModelAdapter
+    backbone: adapters.backbones.ViT.ViTBackbone
+    params:
+      checkpoint: "infrastructure/checkpoints/MVTech_cls_ViT-B.pth"
+      num_classes: 15
+      dataset_name: mvtech_ad
+  dino_cls:
+    model: adapters.models.linear_cls_adapter.LinearClsModelAdapter
+    backbone: adapters.backbones.DINO.DinoBackbone
+    params:
+      checkpoint: "infrastructure/checkpoints/MVTech_cls_DINO-B.pth"
+      num_classes: 15
+      dataset_name: mvtech_ad
+  memory_dino:
+    model: adapters.models.memory_bank_model.MemoryBankModelAdapter
+    backbone: adapters.backbones.DINO.DinoBackbone
+    params:
+      root_directory: "/Users/theo.moreau/Documents/futur/datasets/mvtec_anomaly_detection/hazelnut/train"
+  memory_vit:
+    model: adapters.models.memory_bank_model.MemoryBankModelAdapter
+    backbone: adapters.backbones.ViT.ViTBackbone
+    params:
+      root_directory: "/Users/theo.moreau/Documents/futur/datasets/mvtec_anomaly_detection/hazelnut/train"
+  clip:
+    model: adapters.models.CLIP_cls_adapter.CLIPClsModelAdapter
+    backbone: adapters.backbones.CLIP.CLIPBackbone
+    params: {}

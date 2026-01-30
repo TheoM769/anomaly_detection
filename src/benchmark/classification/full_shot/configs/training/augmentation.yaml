@@ -1,0 +1,18 @@
+training:
+  dataset_name: mvtec_anomaly_detection
+  classname: ["screw"]
+  dist_adjust: False
+  multiclass: False
+  train_split: 0.8
+  num_epochs: 70
+  batch_size: 16
+  weight_decay: 0.0
+  horizontal_flip: 0.5
+  vertical_flip: 0.5
+  rotation: [-180, 180]
+  brightness: 0.5
+  contrast: 0.5
+  saturation: 0.5
+  hue: 0.5
+  lr: [0.001, 0.00001]
+  criterion: "CE"

@@ -1,0 +1,17 @@
+backbone:
+  backbone_name: HierarchicalResNet
+  params:
+    model_name: wide_resnet50
+    resolution: 480
+model:
+  model_name: MemoryBankModel
+  params:
+    dataset_name: mvtec_ad
+    data_root: /Users/theo.moreau/Documents/futur/datasets/mvtec_anomaly_detection
+    object_names: ["screw"]
+    device: mps
+    shots: -1
+    informed_preprocessing: False
+    processing_config_path: /Users/theo.moreau/Documents/futur/src/benchmark/memory_bank/configs/object_preprocessing
+    use_patch_features: True
+    seed: 157

@@ -1,0 +1,6 @@
+backbone:
+  backbone_name: PEVLBackbone
+  params:
+    model_name: PE-Core-B16-224
+model:
+  model_name: ZeroShotClassifier

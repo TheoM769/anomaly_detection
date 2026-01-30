@@ -1,0 +1,9 @@
+backbone:
+  backbone_name: PEVisionBackbone
+  params:
+    model_name: PE-Core-B16-384
+    resolution: 384
+model:
+  model_name: Classifier
+  params:
+    head: linear
